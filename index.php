@@ -43,7 +43,7 @@
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
         }
         .message {
-            font-size: 1.3em;
+            font-size: 1em;
             margin-bottom: 40px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
         }
@@ -92,7 +92,7 @@
 </div>
 
 <div class="footer">
-    <p>&copy; 2025 NoAsmo Cyber4rt. All rights reserved.</p>
+    <p>&copy; 2025 NoAsmo | All rights reserved.</p>
     
    
 </div>
@@ -105,11 +105,11 @@
 
     playButton.addEventListener("click", () => {
         myAudio.play().then(() => {
-            // Simulasi membuka pintu
+           
             welcomePage.style.transition = "opacity 1s";
             welcomePage.style.opacity = 0;
 
-            // Tampilkan halaman deface setelah transisi
+            
             setTimeout(() => {
                 welcomePage.style.display = 'none';
                 defacePage.style.display = 'block';
@@ -131,7 +131,16 @@
         "Pelanggaran berat HAM disambut impunitas, hutang Negara atas keadilan bagi korban tak kunjung lunas.",
         "Habis gelap, terbitlah perlawanan.",
         "#IndonesiaGelap",
-        "Kita berhak mengawal kebijakan Negara, dan bersuara agar setiap kebijakan yang berdampak pada hidup kita didasari keberpihakan pada kesejahteraan kita!"
+        "Kita berhak mengawal kebijakan Negara, dan bersuara agar setiap kebijakan yang berdampak pada hidup kita didasari keberpihakan pada kesejahteraan kita!",
+
+        "Kami Menuntut:",
+        "1. Efisiensi Kabinet Merah Putih secara struktural dan teknis.",
+        "2. Desak Presiden Prabowo untuk mengeluarkan Perpuu Perampasan Aset.",
+        "3. Tolak revisi UU TNI, Polri, dan Kejaksaan.",
+        "4. Evaluasi pelaksanaan program Makan Bergizi Gratis.",
+        "5. Ciptakan pendidikan gratis.",
+        "6. Tolak terhadap revisi UU Minerba.",
+        "7. Reformasi Polri."
     ];
 
     const typingSpeed = 50; // milliseconds
@@ -144,22 +153,22 @@
 
             function typeChar() {
                 if (charIndex < message.length) {
-                    // Menambahkan karakter satu per satu
+                   
                     const effectElement = document.getElementById("typeEffect");
                     effectElement.innerHTML += message.charAt(charIndex);                    
                     charIndex++;
                     setTimeout(typeChar, typingSpeed);
                 } else {
-                    // Setelah semua karakter ditampilkan, buat <br> untuk pemisah antar kalimat
+                  
                     const effectElement = document.getElementById("typeEffect");
                     const br = document.createElement("br");
                     effectElement.appendChild(br); // Tambahkan <br>
                     
-                    // Mengatur jeda sebelum melanjutkan ke pesan berikutnya
+                   
                     setTimeout(() => typeMessage(index + 1), 1000); // Tunggu 1 detik sebelum memulai pesan berikutnya
                 }
             }
-            typeChar(); // Mulai mengetik karakter untuk pesan saat ini
+            typeChar(); 
         }
     }
 </script>
