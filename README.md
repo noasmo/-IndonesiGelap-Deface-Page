@@ -22,3 +22,9 @@ Halaman ini berisi pesan-pesan yang mencerminkan keprihatinan masyarakat mengena
 - Penciptaan pendidikan gratis.
 - Penolakan terhadap revisi UU Minerba.
 - Reformasi Polri.
+  #### Tampilan halaman
+ ![image](https://github.com/user-attachments/assets/d7676798-6036-455a-9e38-9d0df152cfb1)
+
+- ![image](https://github.com/user-attachments/assets/22e6ab68-e842-4d93-80af-d3ccfdbe25d1)
+
+
